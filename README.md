@@ -7,9 +7,11 @@ After this step, OpenVPN is launched with the proper configuration. The VPN can 
 # Usage
 
 Run the script by providing the desired output country:
+```
      chmod+x vpngate.py
     ./vpngate.py US
 
+```
 Both country codes and country names are supported, as listed on the VPNGate website, e.g.:
 
     vpngate.py "United Kingdom"
